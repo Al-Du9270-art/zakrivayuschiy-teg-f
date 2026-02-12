@@ -182,7 +182,7 @@
 .card__title {
   padding-inline: 10px;
   padding-block: 3px;
-  font-weight: var(--font-weight-strong);
+  font-variation-settings: 'wght' var(--font-weight-strong);
   font-size: var(--font-size-text);
   line-height: 1.23;
 }
@@ -216,7 +216,7 @@
   mix-blend-mode: hard-light;
 }
 
-@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff;)) {
+@supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .card__label {
     text-shadow: none;
     -webkit-text-stroke: 1px #fff;
@@ -229,7 +229,7 @@
   flex-direction: column;
   gap: 25px;
   padding: 25px;
-  font-weight: var(--font-weight-regular);
+  font-variation-settings: 'wght' var(--font-weight-regular);
 }
 
 .card__description p {
