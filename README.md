@@ -1,1 +1,1 @@
-https://github.com/Al-Du9270-art/zakrivayuschiy-teg-f
+https://github.com/Al-Du9270-art/zakrivayuschiy-teg-f.git
